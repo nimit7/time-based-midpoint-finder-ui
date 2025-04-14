@@ -1,0 +1,13 @@
+2025-02-13 04:15:35,671 compilation-b57e28b3-8ce1-4f92-bf23-7dba514b43e9 INFO     Running gradle to check for compilation errors
+2025-02-13 04:15:48,343 compilation-b57e28b3-8ce1-4f92-bf23-7dba514b43e9 INFO     
+Compilation Logs:
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.6.1/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+> Task :clean
+> Task :compileJava NO-SOURCE
+> Task :qeatsbackend:compileJava FROM-CACHE
+
+BUILD SUCCESSFUL in 12s
+2 actionable tasks: 1 executed, 1 from cache
+
+2025-02-13 04:15:48,345 compilation-b57e28b3-8ce1-4f92-bf23-7dba514b43e9 INFO     Compilation successful

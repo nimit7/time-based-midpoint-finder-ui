@@ -1,0 +1,17 @@
+2025-02-13 04:07:41,224 unitTesting-2fa3928b-34cf-484d-8be4-0af507492749 INFO     Running gradle test
+2025-02-13 04:07:44,638 unitTesting-2fa3928b-34cf-484d-8be4-0af507492749 INFO     Gradle test complete!
+2025-02-13 04:07:44,639 unitTesting-2fa3928b-34cf-484d-8be4-0af507492749 INFO     
+Gradle test logs:
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.6.1/userguide/gradle_daemon.html.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+The first result from the daemon was empty. Most likely the process died immediately after connection.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+2025-02-13 04:07:44,640 unitTesting-2fa3928b-34cf-484d-8be4-0af507492749 INFO     Gradle test run complete

@@ -1,0 +1,23 @@
+// filepath: scss-react-app/scss-react-app/src/styles/_mixins.scss
+@mixin button-styles($bg-color, $text-color, $hover-bg-color) {
+  background-color: $bg-color;
+  color: $text-color;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+
+  &:hover {
+    background-color: $hover-bg-color;
+    opacity: 0.9; // Transparency effect on hover
+  }
+}
+
+@mixin responsive-font($size) {
+  font-size: $size;
+
+  @media (max-width: 768px) {
+    font-size: $size * 0.9; // Adjust font size for smaller screens
+  }
+}

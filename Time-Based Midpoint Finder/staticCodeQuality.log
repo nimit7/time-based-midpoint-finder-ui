@@ -1,0 +1,16 @@
+2025-02-13 04:13:37,847 staticCodeQuality-d9d9da5a-1798-433a-a40e-e33b48c21cae INFO     Running gradle to check static code quality
+2025-02-13 04:13:41,501 staticCodeQuality-d9d9da5a-1798-433a-a40e-e33b48c21cae INFO     
+Build logs:
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.6.1/userguide/gradle_daemon.html.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+The first result from the daemon was empty. Most likely the process died immediately after connection.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+2025-02-13 04:13:41,502 staticCodeQuality-d9d9da5a-1798-433a-a40e-e33b48c21cae INFO     Gradle run complete

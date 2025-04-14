@@ -1,0 +1,10 @@
+com\nimz\midpointfinder\service\RouteService.class
+com\nimz\midpointfinder\config\AppConfig.class
+com\nimz\midpointfinder\model\Coordinate.class
+com\nimz\midpointfinder\controller\RouteController.class
+com\nimz\midpointfinder\model\Summary.class
+com\nimz\midpointfinder\model\RouteResponse.class
+com\nimz\midpointfinder\MidpointFinderApplication.class
+com\nimz\midpointfinder\model\Feature.class
+com\nimz\midpointfinder\model\Geometry.class
+com\nimz\midpointfinder\model\Properties.class
